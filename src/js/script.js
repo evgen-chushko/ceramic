@@ -1,2 +1,2 @@
 
-import "/src/sass/style.scss";
+import "/ceramic/src/sass/style.scss";
