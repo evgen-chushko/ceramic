@@ -1,3 +1,4 @@
+
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "vite";
@@ -9,6 +10,7 @@ export default defineConfig({
 		rollupOptions: {
 			input: {
 				main: resolve(__dirname, "index.html"),
+				catalog: "catalog.html",
 			},
 		},
 	},
